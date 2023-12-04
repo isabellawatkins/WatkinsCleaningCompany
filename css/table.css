@@ -1,0 +1,9 @@
+
+
+/* Table Styles */
+table.schedule{
+	background: white;
+	border: 10px outset black;
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 100%
