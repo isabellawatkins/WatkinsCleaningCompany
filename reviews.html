@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: bella w
+		Date: 10/8/23
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Watkins Cleaning Company</title>
+   <link href="css/styles.css" rel="stylesheet" />
+ 
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/cleaningco.jpg" alt="Watkins Cleaning Company"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "aboutus.html">About Us</a></li>
+	  <li><a href = "services.html">Services/Pricing</a></li>
+	  <li><a href = "reviews.html">Reviews</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<form id="survey" 
+	  method="post">
+			<fieldset id="custInfo">
+				<legend>Watkins Cleaning Service Reviews</legend>
+			
+			<fieldset id="expInfo">
+				<legend>Share Your Experience</legend>
+				
+				<div class="formRow">
+					<label for="visit">Date of Service</label>
+					<input name="visitDate" id="visit" type="date"/>
+				</div>
+				
+				<div class="formRow">
+					<label for="order">Service Type</label>
+					<select name="orderType" id="order">
+						<option value="order1">Dusting</option>
+						<option value="order2">Grout Cleaning</option>
+						<option value="order3">Window Cleaning</option>
+						<option value="order4">Carpet, Rug, Floor Cleaning</option>
+						<option value="order5" selected>One-time/Recurring Cleaning</option>
+						<option value="order6">Customzied Cleaning</option>
+					</select>
+				</div>
+	
+				<div class="formRow">
+					<label>Was your service good?</label>
+					<fieldset class="optGroup">
+						<label name="cYes">Yes</label>
+						<input name="cYes" id="cYes" value="yes" type="radio" />
+						<label name="cNo">No</label>
+						<input name="cNo" id="cNo" value="no" type="radio" />
+					</fieldset>
+				</div>
+				
+				<div class="formRow">
+					<label for="rangeBox">Rate the overall service<br />
+					(0=poor; 10=great) </label>
+					0
+					<input name="serviceRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10" />
+					10
+				</div> 
+				
+				<label for="commBox">Tell us more about your experince!
+				</label>
+				<textarea name="custExp" id="commBox"></textarea>
+				
+				</fieldset>
+				
+				<div id="buttons">
+					<input type="submit" value="Submit My Survey" />
+					<input type="reset" value="Cancel" />
+				</div>
+	  
+	  </form>
+	  </article> 
+<aside>
+</aside>
+
+<footer> 
+
+	<p>Watkins Cleaning Company<br />
+	4614 South 50th Street &bull; Omaha, NE 68117<br />
+	<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "#">Directions</a> |<a href = "tel:+4028172334">(402)817-2334</a> | <a href = "Watkins.cleaningco@gmail.com">Email Us</a></p>
+	
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
